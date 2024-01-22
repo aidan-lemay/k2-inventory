@@ -1,8 +1,18 @@
-# K2GXT_Inventory_Control
+# K2GXT Inventory Control
 
 ## Setting Up and Building Application
 
 1) Run `npm install` from the root directory
+2) Create a file named `.env` in the root directory with the following lines:
+
+```
+MONGOURL=<URL of your MongoDB host>
+MONGOUSER=<Username for your MongoDB host>
+MONGOPASS=<Password for your MongoDB host>
+MONGODB=<Database to use on your MongoDB Host>
+```
+
+---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
